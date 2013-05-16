@@ -28,7 +28,7 @@
  */
 
 (function ($) {
-    $.fn.charprogress = function (options) {
+    $.fn.inputMeter = function (options) {
         var css;
 
         // In our handler, we'll want to know if this is a Windows client --
@@ -41,9 +41,9 @@
             var defaults = {
                 maxLength: 140,
                 warnLength: 110,
-                okStyle: 'charprogressOk',
-                warnStyle: 'charprogressWarn',
-                maxStyle: 'charprogressMax',
+                okStyle: 'inputMeterOk',
+                warnStyle: 'inputMeterWarn',
+                maxStyle: 'inputMeterMax',
                 compensateWindowsNL: true,
                 block: input.is("textarea")
             };
