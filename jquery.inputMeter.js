@@ -85,8 +85,6 @@
                 var allowKey;
                 var adjustment = 1;
 
-                console.log(key);
-
                 // Keystrokes that won't actually change the input length and should always
                 // be allowed without having to recalculate size
                 if ((key >= 37 && key <= 40) || key === 9       // arrows,tab
