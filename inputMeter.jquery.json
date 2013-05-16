@@ -1,0 +1,28 @@
+{
+    "name": "inputMeter",
+    "version": "1.0.1",
+    "title": "Input Meter",
+    "author":  {
+        "name": "Joel Burton",
+        "email": "joel@joelburton.com"
+    },
+    "maintainers": [
+    {
+        "name": "Joel Burton",
+        "email": "joel@joelburton.com"
+    }
+    ],
+    "licenses": [ {
+        "type": "GPL-3.0",
+        "url": "http://opensource.org/licenses/GPL-3.0"
+    } ],
+    "dependencies": {
+        "jquery": ">=1.4.0"
+    },
+    "description": "Limits input/textarea to maximum number of characters and provides visual meter of length.",
+    "homepage": "https://github.com/joelburton/jquery.inputMeter",
+    "docs": "https://github.com/joelburton/jquery.inputMeter/blob/master/README.md",
+    "bugs": "https://github.com/joelburton/jquery.inputMeter/issues"
+}
+
+
